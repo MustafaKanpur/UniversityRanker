@@ -1,0 +1,5 @@
+letters = ("a, b, c, d, e ,f, g, h")
+lettersList = letters.split(",")
+print(lettersList[1])
+lettersList.pop()
+print(lettersList)
